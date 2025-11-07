@@ -46,6 +46,8 @@ This fork addresses several dependency and compatibility issues to enable traini
 
 ## Quick Start
 
+**💡 New to ML or have limited hardware?** Use our [Google Colab Training Guide](COLAB_TRAINING.md) for **free GPU access** - no installation required!
+
 ### 1. Environment Setup
 
 Using `uv` (recommended for faster installs):
@@ -134,6 +136,8 @@ model = YOLOv10.from_pretrained("juliozhao/DocLayout-YOLO-DocStructBench")
 ```
 
 ## Training
+
+**🚀 Want to train on free GPUs?** Check out our [Google Colab Training Guide](COLAB_TRAINING.md) for step-by-step instructions!
 
 ### Data Preparation
 
