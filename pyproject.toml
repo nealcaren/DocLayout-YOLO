@@ -79,7 +79,7 @@ dependencies = [
     "pandas>=1.1.4",
     "seaborn>=0.11.0", # plotting
     "albumentations>=1.0.3,<1.4.11", # <1.4.11 for compatibility with tensorflow export extras (numpy<=1.24.3)
-    "pywavelets>=1.5.0", # >=1.5.0 for Python 3.12 compatibility (older versions fail to build)
+    "pywavelets>=1.5.0; python_version >= '3.12'", # >=1.5.0 for Python 3.12 compatibility (older versions fail to build)
 ]
 
 # Optional dependencies ------------------------------------------------------------------------------------------------
