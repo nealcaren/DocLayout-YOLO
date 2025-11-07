@@ -79,6 +79,7 @@ dependencies = [
     "pandas>=1.1.4",
     "seaborn>=0.11.0", # plotting
     "albumentations>=1.4.11",
+    "PyWavelets>=1.5.0", # required for scipy and opencv-python compatibility with Python 3.11
 ]
 
 # Optional dependencies ------------------------------------------------------------------------------------------------
