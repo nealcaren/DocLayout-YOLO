@@ -70,8 +70,8 @@ dependencies = [
     "pyyaml>=5.3.1",
     "requests>=2.23.0",
     "scipy>=1.4.1",
-    "torch>=2.0.1",
-    "torchvision>=0.15.2",
+    "torch>=2.2.0", # >=2.2.0 for Python 3.12 support
+    "torchvision>=0.17.0", # >=0.17.0 for compatibility with torch 2.2+
     "tqdm>=4.64.0", # progress bars
     "psutil", # system utilization
     "py-cpuinfo", # display CPU info
