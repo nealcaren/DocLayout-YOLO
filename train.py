@@ -21,7 +21,7 @@ if __name__ == "__main__":
     parser.add_argument('--project', default=None, required=True, type=str)
     parser.add_argument('--resume', action=argparse.BooleanOptionalAction)
     parser.add_argument('--workers', default=4, required=False, type=int)
-    parser.add_argument('--device', default="0,1,2,3,4,5,6,7", required=False, type=str)
+    parser.add_argument('--device', default="0,1,2,3,4,5,6,7", required=False, type=str, help="Device to use: cuda (e.g., '0' or '0,1,2,3'), 'cpu', or 'mps' for Apple Silicon")
     parser.add_argument('--save-period', default=10, required=False, type=int)
     parser.add_argument('--patience', default=100, required=False, type=int)
     args = parser.parse_args()
