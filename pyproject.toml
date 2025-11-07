@@ -78,6 +78,7 @@ dependencies = [
     "pandas>=2.1.0", # >=2.1.0 for Python 3.12 wheel availability on macOS
     "seaborn>=0.11.0", # plotting
     "albumentations>=1.0.3,<1.4.11", # <1.4.11 for compatibility with tensorflow export extras (numpy<=1.24.3)
+    "scikit-image>=0.20.0", # >=0.20.0 for Python 3.12 compatibility (0.19.x requires distutils)
     "pywavelets>=1.5.0; python_version >= '3.12'", # >=1.5.0 for Python 3.12 compatibility (older versions fail to build)
     "huggingface_hub",
 ]
